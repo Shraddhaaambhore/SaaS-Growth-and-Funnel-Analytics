@@ -3,6 +3,11 @@
 ## Project Overview
 Analyzed a synthetic SaaS product dataset to understand user acquisition, onboarding, product engagement, and paid conversion. Used Python for data generation and validation, PostgreSQL for SQL-based analysis, and Power BI to build interactive dashboards.
 
+## Business Problem
+SaaS businesses need to understand how users move from initial signup to paid subscription and identify where potential customers drop off during the journey. They also need to evaluate which acquisition channels bring higher-converting users and how product engagement relates to subscription conversion.
+
+This project investigates these questions using user journey, acquisition, and product event data to identify conversion bottlenecks, compare channel performance, and uncover opportunities to improve user activation and paid conversion.
+
 ## Business Objectives
 - Evaluate the user journey from signup to paid subscription.
 - Identify conversion drop-offs across the funnel.
@@ -31,11 +36,11 @@ The project uses a synthetic dataset containing:
 
 ## Power BI Dashboards
 
-### Dashboard 1 — Growth & Conversion Analysis
-![Growth & Conversion Analysis](Power%20BI/dasboard_2_Growth%20%26%20Conversion%20Analysis..png)
-
-### Dashboard 2 — User Engagement & Conversion Insights
+### Dashboard 1 — User Engagement & Conversion Insights
 ![User Engagement & Conversion Insights](Power%20BI/dashboard_1_Interactive%20User%20%26%20Product%20Exploration.png)
+
+### Dashboard 2 — Growth & Conversion Analysis
+![Growth & Conversion Analysis](Power%20BI/dasboard_2_Growth%20%26%20Conversion%20Analysis..png)
 
 ## Repository Structure
 - `Python/` — Data generation scripts
